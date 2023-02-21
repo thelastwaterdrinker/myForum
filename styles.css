@@ -1,0 +1,103 @@
+body {
+    background-color: #e4e6f8;
+    font-size: 120%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    background-color: white;
+    width: 1024px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+header .brand {
+    color: #666;
+    font-family: 'Pacifico', Georgia;
+    font-size: 170%;
+    padding: 40px;
+}
+
+header .brand span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40%;
+    padding: 20px;
+}
+
+.hero {
+    height: 400px;
+    background: #68bba1 url(./illustration.png) center no-repeat;
+}
+
+footer {
+    display: block;
+    padding: 20px;
+    font-size: 90%;
+    clear: both;
+}
+
+content {
+    display: block;
+    overflow: hidden;
+    padding: 50px;
+}
+
+main {
+    float: left;
+    width: 70%;
+}
+
+aside {
+    float: right;
+}
+
+aside .section {
+    background-color: #e6f7cc;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+aside .section h3 {
+    background-color: #a895eb;
+    color: #fff;
+    padding: 20px;
+    margin-top: 0;
+}
+
+a{
+    color: #333;
+}
+
+a:hover {
+    color: #0062ff;
+}
+
+aside ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+aside a {
+    padding: 10px 0;
+    display: block;
+}
+
+article h2 {
+    margin-bottom: 0;
+    font-size: 170%;
+    color: #333;
+    padding: 0;
+}
+
+article p {
+    margin-top: 10px;
+    font-size: 100%;
+    color: #333;
+    padding: 0;
+}
+
+article {
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
